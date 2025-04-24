@@ -1,0 +1,22 @@
+name: m11221aatt
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ahm2222
+    runs-on: windows-latest
+    timeout-minutes: 9999
+    
+    steps:
+      - name: ahm122ddd
+        run: |
+          Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+
+      - name: a12eesr
+        run: cmd /c show.bat
+
+      - name: dddsaddsa
+        run: cmd /c loop.bat
